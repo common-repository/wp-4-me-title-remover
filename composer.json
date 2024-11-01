@@ -1,0 +1,20 @@
+{
+    "name": "daryl-peterson/wp-4me-title-remover",
+    "description": "WP 4 Me Title Remover",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Daryl Peterson",
+            "email": "daryl.peterson@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WP4Me_Title_Remover\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
